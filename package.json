@@ -2,9 +2,10 @@
   "name": "my-site-web",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/14bird/my-site-web/issues"
   },
-  "homepage": "https://github.com/14bird/my-site-web#readme"
+  "homepage": "https://github.com/14bird/my-site-web#readme",
+  "dependencies": {
+    "element-ui": "^2.15.2",
+    "vue": "^2.6.14",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.2",
+    "pug": "^3.0.2",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.4",
+    "vue-template-compiler": "^2.6.14"
+  }
 }
